@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 10vh;
+  width: 100vw;
+  
+
+  .coffeeDiv {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    padding-left: 20px;
+  }
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    li {
+        text-decoration: none;
+        
+        font-size: 20px;
+        padding: 5px;
+    }
+    
+  }
+  .keepcalmCenter {
+    display: flex;
+    flex: 5;
+    align-items: center;
+    justify-content: center;
+  }
+  .userHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 2;
+    padding-right: 30px;
+    gap: 5px;
+  }
+}
+
+button {
+    position: relative;
+  border: none;
+  font-size: 13px;
+  transition: color 0.5s, transform 0.2s, background-color 0.2s;
+  outline: none;
+  border-radius: 3px;
+  margin: 0 10px;
+  padding: 5px;
+  border: 3px solid transparent;
+  
+  &:active {
+    transform: translateY(3px)
+  }
+  &::after, &::before {
+      border-radius: 3px
+  }
+    
+}
+  

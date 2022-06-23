@@ -1,0 +1,14 @@
+div {
+    display: flex;
+    position: absolute;
+    height: 5vh;
+    width: 100vw;
+    background-color: #303030;
+    justify-content: center;
+    bottom: 0;
+    h4{
+        display: flex;
+        align-items: center;
+
+    }
+}
