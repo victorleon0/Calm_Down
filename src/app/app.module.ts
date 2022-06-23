@@ -9,7 +9,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { HeaderComponent } from './core/header/header.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
-import { KeepcalmComponent } from './pages/keepcalm/keepcalm.component';
+import { TravelComponent } from './pages/travel/travel.component';
 import { RegisterComponent } from './pages/register/register.component';
 
 @NgModule({
@@ -21,8 +21,8 @@ import { RegisterComponent } from './pages/register/register.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    KeepcalmComponent,
-    RegisterComponent
+    RegisterComponent,
+    TravelComponent
   ],
   imports: [
     BrowserModule,
